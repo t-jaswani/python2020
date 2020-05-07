@@ -1,0 +1,21 @@
+https://sourabhbajaj.com/mac-setup/Homebrew/Usage.html
+ls - list directory and file on the currnet path
+pwd - mentions the currnet oath
+mkdir folder name- creates a folde
+cd dierectpry name- change directory to (put the name of the directory)
+cd .. - change to root directrory 
+rm - r - remove folder 
+touch filename - create a file
+open filename/flder 
+brew cask imstall app name,brew search slack, brew cask uninstall slack --if its a package use brew and if its an app use cask
+sudo - super user do..whne you need admin accessto  proceed
+man sudo - to exit q --man is used to know details aboit a xcode/macos commands..man stands for manual entery 
+use imagemagick to convert image files - mogrify to get commands
+command+k to clear the screen 
+home brew is the missing pacakage manager ..it simplifies the installation of software (bree install software or package name)
+home brew casks is specially used yo install/unistall desptop application --so its like appstore of comm prompt 
+(brew casks intall/unistall app name)
+just trype brew or brew cask to see teh commands that rae assocaited respecively 
+shell - https://www.guru99.com/introduction-to-shell-scripting.html
+bash shell-script.sh
+command+k to clear

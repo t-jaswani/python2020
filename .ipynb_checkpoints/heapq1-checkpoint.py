@@ -18,23 +18,20 @@
 #     n = int(input())
 #     arr = map(int, input().split())
 #     print(answer(arr))   
-#import os
+import os
 import heapq
 #import hackerraank3
 #from newtj.ian.hackerrank3 import sort1
 list1 = [1,42,53,64,5,76,7,8,9]
-l2 = ['a','f','w','e','d','g','x','o']
 
 #https://docs.python.org/3.0/library/heapq.html
 #p = sort1(list1)
 #print(p)
-
 x = heapq.nsmallest(4,list1)
 print(x)
 y = heapq.nlargest(3,list1)
 print(y)
 print(list(heapq.merge(x,y)))
-print(heapq.nsmallest(2,heapq.merge(x,y)))
-print(heapq.nsmallest(3,l2))
-print(heapq.nsmallest(3,heapq.merge(list1,l2)))
+print(heapq.nsmallest(2,list(heapq.merge(x,y))))
+
 
